@@ -11,6 +11,8 @@
 		F2230E0A29F7320900153BE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2230E0929F7320900153BE2 /* ContentView.swift */; };
 		F2230E0C29F7320A00153BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2230E0B29F7320A00153BE2 /* Assets.xcassets */; };
 		F2230E0F29F7320A00153BE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2230E0E29F7320A00153BE2 /* Preview Assets.xcassets */; };
+		F2230E1629F7395C00153BE2 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2230E1529F7395C00153BE2 /* WelcomeScreenView.swift */; };
+		F2230E1829F739A300153BE2 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2230E1729F739A300153BE2 /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F2230E0929F7320900153BE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2230E0B29F7320A00153BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2230E0E29F7320A00153BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2230E1529F7395C00153BE2 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		F2230E1729F739A300153BE2 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				F2230E0929F7320900153BE2 /* ContentView.swift */,
 				F2230E0B29F7320A00153BE2 /* Assets.xcassets */,
 				F2230E0D29F7320A00153BE2 /* Preview Content */,
+				F2230E1529F7395C00153BE2 /* WelcomeScreenView.swift */,
+				F2230E1729F739A300153BE2 /* SignInScreenView.swift */,
 			);
 			path = macnificos;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2230E1829F739A300153BE2 /* SignInScreenView.swift in Sources */,
+				F2230E1629F7395C00153BE2 /* WelcomeScreenView.swift in Sources */,
 				F2230E0A29F7320900153BE2 /* ContentView.swift in Sources */,
 				F2230E0829F7320900153BE2 /* macnificosApp.swift in Sources */,
 			);
