@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F214E76829F860440048C56D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214E76729F860440048C56D /* MapView.swift */; };
 		F2219A8829F74AA300208763 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2219A8729F74AA300208763 /* LocationError.swift */; };
 		F2230E0829F7320900153BE2 /* macnificosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2230E0729F7320900153BE2 /* macnificosApp.swift */; };
 		F2230E0A29F7320900153BE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2230E0929F7320900153BE2 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F214E76729F860440048C56D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F2219A8729F74AA300208763 /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
 		F2230E0429F7320900153BE2 /* macnificos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macnificos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2230E0729F7320900153BE2 /* macnificosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macnificosApp.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				F2230E1529F7395C00153BE2 /* WelcomeScreenView.swift */,
 				F2230E1729F739A300153BE2 /* SignInScreenView.swift */,
 				F2219A8729F74AA300208763 /* LocationError.swift */,
+				F214E76729F860440048C56D /* MapView.swift */,
 			);
 			path = macnificos;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2230E1829F739A300153BE2 /* SignInScreenView.swift in Sources */,
+				F214E76829F860440048C56D /* MapView.swift in Sources */,
 				F2230E1629F7395C00153BE2 /* WelcomeScreenView.swift in Sources */,
 				F2219A8829F74AA300208763 /* LocationError.swift in Sources */,
 				F2230E0A29F7320900153BE2 /* ContentView.swift in Sources */,

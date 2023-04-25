@@ -12,10 +12,11 @@ struct WelcomeScreenView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color("BgColor").edgesIgnoringSafeArea(.all)
+                Color("PrimaryLightColor").edgesIgnoringSafeArea(.all)
                 VStack {
                     Spacer()
                     Image(uiImage: #imageLiteral(resourceName: "onboard"))
+                        .cornerRadius(25.0)
                     Spacer()
                     PrimaryButton(title: "Registrarse")
                     
